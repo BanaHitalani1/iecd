@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
             );
           },
           fallback: (BuildContext context) {
-            return Center(child: LinearProgressIndicator(color: Colors.pinkAccent,),);
+            return Center(child: CircularProgressIndicator(color: Colors.pinkAccent,),);
           },
         );
       },
